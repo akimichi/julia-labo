@@ -1,9 +1,11 @@
-using Base.Test
+using Test
 
 
 # Basic test
-
-##  # sum
-    @test sum([1,2,3]) == 6
-    @test isa(sum([1,2,3]), Int)
-    @test sum(1:3) == 6
+@testset "Math" begin
+  include("Math/arith.jl")
+  include("Math/complex.jl")
+end
+@testset "String" begin
+  include("string.jl")
+end

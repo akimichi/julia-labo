@@ -1,6 +1,6 @@
-ntro to Weave.jl with Gadfly
-% Matti Pastell
-% 20th April 2016
+# Intro to Weave.jl with Gadfly
+# Matti Pastell
+# 20th April 2016
 
 # Introduction
 
